@@ -1,5 +1,5 @@
 
-export default function howwedo() {
+export default function HowWeDo() {
     return (
         <>
         </>
