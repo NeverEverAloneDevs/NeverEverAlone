@@ -1,4 +1,4 @@
-export default function howwehelp() {
+export default function HowWeHelp() {
     return (
         <>
         </>

@@ -1,5 +1,5 @@
 
-export default function whatweserve() {
+export default function WhatWeServe() {
     return (
         <>
         </>
