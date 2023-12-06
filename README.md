@@ -7,6 +7,7 @@
 <h3 style='color:#4AC16A;'> To tart the project in your terminal, please paste these 2 commands in order: </h3>
 
         npm install 
+        
         npm run dev
 
 If you have any questions or concerns regarding the project, please create an issue and we will respond asap!
