@@ -1,5 +1,4 @@
-
-export default function WhatWeServe() {
+export default function Contact() {
     return (
         <>
         </>

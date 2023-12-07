@@ -1,5 +1,5 @@
 
-export default function HowWeDo() {
+export default function About() {
     return (
         <>
         <p>How we do</p>

@@ -5,10 +5,10 @@ export default function Navbar(){
         <nav>
         <img  src={logo_name} alt='logo and name of NeverEverAlone'/>
         <Link to="/">Home</Link>
-        <Link to="/what-we-serve">Domestic Violence</Link>
-        <Link to="/how-we-do">About</Link>
-        <Link to="/how-we-help">Contact</Link>
-        <Link to="/team">Donate now</Link>
+        <Link to="/domestic-violence">Domestic Violence</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/donate-now">Donate now</Link>
 
         </nav>
     )

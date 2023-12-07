@@ -1,29 +1,29 @@
 import App from "./App";
 import { createBrowserRouter } from "react-router-dom";
-import Whatweserve from "./components/Whatweserve";
-import Howwedo from "./components/Howwedo";
-import Howwehelp from "./components/Howwehelp";
-import Team from "./components/Team";
+import DomesticViolence from "./components/DomesticViolence";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import DonateNow from "./components/DonateNow";
 const router = createBrowserRouter ([
     {
         path: "/",
         element: <App />,
         children: [
             {
-                path: "/what-we-serve",
-                element: <Whatweserve />
+                path: "/domestic-violence",
+                element: <DomesticViolence />
             },
             {
-                path: "/how-we-do",
-                element: <Howwedo />
+                path: "/about",
+                element: <About />
             },
             {
-                path: "/how-we-help",
-                element: <Howwehelp />
+                path: "/contact",
+                element: <Contact />
             },
             {
-                path: "/team",
-                element: <Team />
+                path: "/donate-now",
+                element: <DonateNow/>
             },
 
         ]

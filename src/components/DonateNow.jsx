@@ -1,4 +1,5 @@
-export default function HowWeHelp() {
+
+export default function DonateNow() {
     return (
         <>
         </>
