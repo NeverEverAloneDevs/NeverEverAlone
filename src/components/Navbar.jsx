@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import logo_name from '../assets/logo_name.svg'
+
+
 export default function Navbar(){
     return (
         <nav>
@@ -9,7 +11,6 @@ export default function Navbar(){
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
         <Link to="/donate-now">Donate now</Link>
-
         </nav>
     )
 }
