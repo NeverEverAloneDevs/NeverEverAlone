@@ -1,15 +1,16 @@
 import App from "./App";
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Outlet} from "react-router-dom";
 import DomesticViolence from "./components/DomesticViolence";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import DonateNow from "./components/DonateNow";
 
 const router = createBrowserRouter ([
-    {
-        path: "/",
-        element: <App />,
-        children: [
+       
+            {
+                path: "/",
+                element: <App />
+            },
             {
                 path: "/domestic-violence",
                 element: <DomesticViolence />
@@ -27,7 +28,5 @@ const router = createBrowserRouter ([
                 element: <DonateNow/>
             },
 
-        ]
-    }
-]);
+        ]);
 export default router;
