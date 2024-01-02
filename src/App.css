@@ -42,3 +42,12 @@ nav {
   letter-spacing: -0.16px;
   padding-left: 20px;
 }
+
+/* home page  */
+.home-nav-box {
+  display: flex;
+  width: 1440px;
+  height: 849.057px;
+  flex-shrink: 0;
+  background: url(./assets/getHelp.svg), lightgray 50% / contain no-repeat;
+}

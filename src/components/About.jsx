@@ -15,7 +15,5 @@ export default function About() {
                 <div>
                 <p>What we do</p>
                 </div>
-
-        </div>
-        )
+        </div>)
 }

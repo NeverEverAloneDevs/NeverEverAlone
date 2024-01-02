@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import logo_name from '../assets/logo_name.svg'
-import { Outlet } from "react-router-dom";
+// import { Outlet } from "react-router-dom";
 export default function Navbar(){
     return (
     
@@ -17,10 +17,6 @@ export default function Navbar(){
             <Link className='nav-rest-items'to="/donate-now">Donate now</Link>
         </div>
         </nav>
-        {/* import Outlet so all the components in children paths can render
-        <div>
-            <Outlet />
-        </div> */}
         
 </div>
         

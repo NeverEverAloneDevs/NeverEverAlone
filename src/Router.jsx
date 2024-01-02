@@ -4,12 +4,13 @@ import DomesticViolence from "./components/DomesticViolence";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import DonateNow from "./components/DonateNow";
+import Home from "./pages/Home";
 
 const router = createBrowserRouter ([
        
             {
                 path: "/",
-                element: <App />
+                element: <Home />
             },
             {
                 path: "/domestic-violence",
