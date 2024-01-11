@@ -6,7 +6,7 @@ export default function Navbar(){
     
         // navbar: render all paths in the Router.jsx
     <div className='back-ground'>
-        
+        {/* using tag <a> to link each nav item to their section in the same page, drop down memu needed */}
         <nav>
         <img  src={logo_name} alt='logo and name of NeverEverAlone'/>
         <div className='nav-items'>

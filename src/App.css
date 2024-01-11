@@ -51,3 +51,39 @@ nav {
   flex-shrink: 0;
   background: url(./assets/getHelp.svg), lightgray 50% / contain no-repeat;
 }
+.navbar-content-box{
+  width: 736px;
+  height: 183px;
+  margin-top: 300px;
+  margin-bottom:366.06px;
+  margin-left: 163px;
+  margin-right: 541px;
+}
+.navbar-content{
+  color: #D7D7D7;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 42px */
+  letter-spacing: -0.56px;
+}
+.navbar-content-author{
+  color: #D7D7D7;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.4px;
+}
+.get-help{
+  display: flex;
+  height: 48px;
+  padding: 8px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  background: var(--Primary-Spring50, #4AC16A);
+}
