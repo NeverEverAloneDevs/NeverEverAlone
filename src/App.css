@@ -51,3 +51,90 @@ nav {
   flex-shrink: 0;
   background: url(./assets/getHelp.svg), lightgray 50% / contain no-repeat;
 }
+
+/* About.jsx */
+.who-we-are-images-contents{
+  width: 1440px auto;
+  height: 847px auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  margin-top: 144px;
+  margin-bottom: 144px;
+  margin-left: 160px;
+  margin-right: 32px;
+}
+.image-1-box{
+  display: flex;
+  padding-top: 88px;
+  align-items: flex-start;
+}
+.image-1{
+  width: 256px;
+  height: 408px;
+  border-radius: 16px 0px 16px 16px;
+  background: url(./assets/About_WhoWeAre/image40.svg), lightgray 50% / cover no-repeat;
+}
+.image-2-box{
+  display: flex;
+  align-items: flex-start;
+}
+.image-2{
+  width: 256px;
+height: 408px;
+border-radius: 16px 16px 16px 0px;
+background: url(./assets/About_WhoWeAre/image39.svg), lightgray 50% / cover no-repeat;
+}
+.who-we-are-contents-box{
+  display: flex;
+  width: 544px fixed;
+  height: 559px fixed;
+  padding: 0px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+.who-we-are-content-title{
+  color: var(--Secondary-Blue-Ebony, #252642);
+  /* Typo/Title L */
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 43.2px */
+  letter-spacing: -0.72px;
+}
+.who-we-are-content-p{
+  align-self: stretch;
+  color: var(--Neutral-Gray90, #0B0B14);
+  /* Body/XL Regular */
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  letter-spacing: -0.18px;
+}
+.who-we-are-button-box{
+  width: 120px;
+  height: 42px;
+  display: flex;
+  padding: 8px 0px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+}
+.who-we-are-button{
+  color: var(--Primary-Spring70, #147952);
+  /* Body/L Semibold */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: -0.16px;
+}
+.who-we-are-icon-right{
+  width: 20px;
+  height: 20px;
+}
