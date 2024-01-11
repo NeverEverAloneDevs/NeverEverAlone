@@ -17,12 +17,15 @@ export default function Home() {
         <div>
             <About />
         </div>
+      
         <div>
             <DomesticViolence />
         </div>
+      
         <div>
             <Contact />
         </div>
+      
         <div>
             <Footer />
         </div>
