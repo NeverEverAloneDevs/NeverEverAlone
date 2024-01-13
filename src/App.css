@@ -95,6 +95,8 @@ background: url(./assets/About_WhoWeAre/image39.svg), lightgray 50% / cover no-r
   gap: 40px;
 }
 .who-we-are-content-title{
+  text-decoration: underline;
+  text-decoration-color: #4AC16A;
   color: var(--Secondary-Blue-Ebony, #252642);
   /* Typo/Title L */
   font-family: Montserrat;
