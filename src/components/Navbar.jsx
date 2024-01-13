@@ -18,20 +18,6 @@ export default function Navbar(){
                 <a className='download-now-button'>Download App</a>
             </div>
             </nav>
-            
-
-    <div className='back-ground'>
-        {/* using tag <a> to link each nav item to their section in the same page, drop down memu needed */}
-        <nav>
-        <img  src={logo_name} alt='logo and name of NeverEverAlone'/>
-        <div className='nav-items'>
-            <Link className='nav-home'to="/">Home</Link>
-            <Link className='nav-rest-items'to="/domestic-violence">Domestic Violence</Link>
-            <Link className='nav-rest-items'to="/about">About</Link>
-            <Link className='nav-rest-items'to="/contact">Contact</Link>
-            <Link className='nav-rest-items'to="/donate-now">Donate now</Link>
-
-        </div>
-            
+        </div>    
     )
 }
