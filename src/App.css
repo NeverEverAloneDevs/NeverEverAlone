@@ -1,7 +1,5 @@
 /* backgroung */
 .back-ground {
-  width: 1120px;
-  height: 798px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -131,7 +129,7 @@ background: url(./assets/About_WhoWeAre/image39.svg), lightgray 50% / cover no-r
   line-height: 32px; 
   letter-spacing: -0.18px;
 }
-.who-we-are-button-box{
+.who-we-are-button-box {
   width: 120px;
   height: 42px;
   display: flex;
@@ -256,4 +254,79 @@ background: url(./assets/About_WhoWeAre/image39.svg), lightgray 50% / cover no-r
   border-radius: 100px;
   background: var(--Primary-Spring50, #4AC16A);
 
+}
+/* DomesticViolence.jsx */
+.DV-section{
+  background: #E5FBEC;
+  display: flex;
+  padding-left: 160px;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+}
+.DV-left-box{
+  display: flex;
+  width: 640px;
+  padding: 144px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+.DV-title{
+  margin: 0%;
+  color: var(--Secondary-Blue-Ebony, #252642);
+  /* Typo/Title L */
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 43.2px */
+  letter-spacing: -0.72px;
+  text-decoration: underline;
+  text-decoration-color: #4AC16A;
+}
+.DV-content{
+  align-self: stretch;
+  color: var(--Neutral-Gray90, #0B0B14);
+  /* Body/XL Regular */
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  letter-spacing: -0.18px;
+}
+.DV-image-box{
+  display: flex;
+  width: 608px;
+  padding-left: 32px;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+.DV-image{
+  width: 576px ;
+  height: 847px;
+  flex: 1 0 0;
+  align-self: stretch;
+  background: url(./assets/DomesticViolence.svg), lightgray 50% / cover no-repeat;
+}
+.DV-button-box {
+  width: 120px;
+  height: 42px;
+  display: flex;
+  padding: 8px 0px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+}
+.DV-button{
+  color: var(--Primary-Spring70, #147952);
+  /* Body/L Semibold */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: -0.16px;
 }
