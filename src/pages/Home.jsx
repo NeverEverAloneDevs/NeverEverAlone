@@ -4,6 +4,7 @@ import Contact from "../components/Contact";
 import DomesticViolence from "../components/DomesticViolence";
 import Footer from "../components/Footer";
 import NavBarContent from "../components/NavBarContent";
+import CareHub from "../components/CareHub";
 
 export default function Home() {
     return(
@@ -20,6 +21,10 @@ export default function Home() {
       
         <div>
             <DomesticViolence />
+        </div>
+
+        <div>
+            <CareHub />
         </div>
       
         <div>
