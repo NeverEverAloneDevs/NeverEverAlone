@@ -10,7 +10,7 @@ export default function Navbar(){
             <nav>
             <img  src={logo_name} alt='logo and name of NeverEverAlone'/>
             <div className='nav-items'>
-                <Link className='nav-home'to="/">Home</Link>
+                <Link className='nav-home text-3xl-' to="/">Home</Link>
                 <Link className='nav-rest-items'to="/domestic-violence">Domestic Violence</Link>
                 <Link className='nav-rest-items'to="/about">About</Link>
                 <Link className='nav-rest-items'to="/contact">Contact</Link>
