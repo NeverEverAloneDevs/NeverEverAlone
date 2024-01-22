@@ -428,5 +428,64 @@ background: url(./assets/About_WhoWeAre/image39.svg), lightgray 50% / cover no-r
   height: 229px;
   align-self: stretch;
   border-radius: 8px;
-  background: url(./assets/CareHub/emotional-support-3.svg), lightgray 50% / cover no-repeat;
+  background: url(./assets/CareHub/emotional-support-3.svg), rgb(248, 246, 246) 50% / cover no-repeat;
+}
+/* Contact.jsx */
+.appdownload-section{
+  width: 1440px fixed;
+  height: 831.27356px auto;
+  display: flex;
+  padding: 144px 160px 72px 0px;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+  background: var(--Primary-SpringBG, #F6FCF8);
+}
+.appdownload-left-box{
+  width: 800px ;
+  height: 615.274px;
+  background: url(./assets/Contact/App-download-pic.png);
+}
+.appdownload-right-box{
+  width: 448px;
+  height: 478px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  flex: 1 0 0;
+}
+.download-app{
+  align-self: stretch;
+  color: var(--Neutral-Gray90, #0B0B14);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 56px */
+  letter-spacing: -0.8px;
+}
+.appstore-box{
+  width: 448px;
+  height: 85.8px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.apple-store{
+  width: 224px;
+  height: 85.76px;
+  background: url(./assets/Contact/applestore.svg);
+}
+.googleplay-store{
+  width: 224px;
+  height: 85.76px;
+  background: url(./assets/Contact/googleplay.svg);
+}
+.qrcode{
+  width: 160px;
+  height: 160px;  
+  background: url(./assets/Contact/QRcode.png);
 }
