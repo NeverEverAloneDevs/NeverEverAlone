@@ -21,12 +21,12 @@ export default function Navbar(){
         // navbar: render all paths in the Router.jsx
 
         <div > 
-            <nav className='flex flex-row space-between bg-white w-full  items-center items-start py-5' >
-                <div className='md:ml-10 ml-5 flex min-w-fit mx-auto top-0'>
+            <nav className='flex space-between bg-white items-center py-6 md:w-auto' >
+                <div className='md:ml-10 ml-4 flex min-w-fit mx-auto top-0'>
                     <img  src={logo_name} alt='logo and name of NeverEverAlone'/>
                 </div>
                 
-                <div className={`flex sm:flex-row flex-col absolute items-start sm:items-end gap-3 sm:relative bg-white sm:w-full top-[7%] pl-2 font-montserrat mr-5 ${isMenuOpen ? 'hidden': 'block'}`}>
+                <div className={`flex md:flex-row flex-col absolute items-start gap-3  md:relative bg-white w-full top-[7%] pl-2 font-montserrat mr-5 py-4 transition-all duration-500 ease-on ${isMenuOpen ? 'top-[7%]' : 'top-[-400px]'} md:items-end md:justify-end`}>
                     <Menu as="div" className="relative inline-block text-left ">
                         <div>
                             <Menu.Button className="inline-flex  w-full justify-center gap-x-1.5  px-3 py-2 text-md  text-green-700 text-bold font-bold  ">
@@ -259,10 +259,10 @@ export default function Navbar(){
                     </Menu>
                     <Link className='justify-center gap-x-1.5  px-3 py-2 text-md text-gray-900 'to="/contact">Contact</Link>
                     <Link className='justify-center gap-x-1.5  px-3 py-2 text-md text-gray-900 'to="/donate-now">Donate now</Link>
-                    <a className='flex bg-green-600 rounded-full px-5 py-2 text-md max-w-xs text-center'>Download App</a>
+                    <a className='flex bg-green-600 rounded-full ml-3 px-5 py-2 text-md max-w-xs text-center'>Download App</a>
                 </div>
-                <div className='flex items-center text-xl sm:hidden'>
-                        <FontAwesomeIcon icon={isMenuOpen ? faBars:faX} onClick={onToggleMenu}/>
+                <div className='mr-4 flex items-center text-2xl md:hidden cursor-pointer'>
+                        <FontAwesomeIcon icon={isMenuOpen ? faX :faBars} onClick={onToggleMenu}/>
                 </div>
             </nav>
         </div>    
