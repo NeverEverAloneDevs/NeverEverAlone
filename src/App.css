@@ -17,11 +17,11 @@ backgroung
   position: absolute;
   background: var(--primary-spring-bg, #F6FCF8);
 } */
-.nav-items{
+/* .nav-items{
   display: flex;
   align-items: center;
   gap: 32px;
-}
+} */
 
 .nav-home{
   color: var(--primary-spring-70, #147952);

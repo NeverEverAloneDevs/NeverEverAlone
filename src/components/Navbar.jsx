@@ -1,24 +1,32 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo_name from '../assets/logo_name.svg'
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import { ChevronDownIcon } from '@heroicons/react/20/solid';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars,faX } from '@fortawesome/free-solid-svg-icons'
 
-function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
-  }
 
 export default function Navbar(){
+    function classNames(...classes) {
+        return classes.filter(Boolean).join(' ')
+      }
+    const [isMenuOpen,setMenuOpen] = useState(false) ;
+    function onToggleMenu(){
+        setMenuOpen(prev=> !prev);
+    }
+    
     return (
         // navbar: render all paths in the Router.jsx
 
         <div > 
-            <nav className='flex flex-row items-startn justify-between bg-white w-full top-0 left-0 py-5' >
-                <div className='ml-10 flex items-center'>
+            <nav className='flex flex-row space-between bg-white w-full  items-center items-start py-5' >
+                <div className='md:ml-10 ml-5 flex min-w-fit mx-auto top-0'>
                     <img  src={logo_name} alt='logo and name of NeverEverAlone'/>
                 </div>
                 
-                <div className='flex font-montserrat '>
+                <div className={`flex sm:flex-row flex-col absolute items-start sm:items-end gap-3 sm:relative bg-white sm:w-full top-[7%] pl-2 font-montserrat mr-5 ${isMenuOpen ? 'hidden': 'block'}`}>
                     <Menu as="div" className="relative inline-block text-left ">
                         <div>
                             <Menu.Button className="inline-flex  w-full justify-center gap-x-1.5  px-3 py-2 text-md  text-green-700 text-bold font-bold  ">
@@ -252,6 +260,9 @@ export default function Navbar(){
                     <Link className='justify-center gap-x-1.5  px-3 py-2 text-md text-gray-900 'to="/contact">Contact</Link>
                     <Link className='justify-center gap-x-1.5  px-3 py-2 text-md text-gray-900 'to="/donate-now">Donate now</Link>
                     <a className='flex bg-green-600 rounded-full px-5 py-2 text-md max-w-xs text-center'>Download App</a>
+                </div>
+                <div className='flex items-center text-xl sm:hidden'>
+                        <FontAwesomeIcon icon={isMenuOpen ? faBars:faX} onClick={onToggleMenu}/>
                 </div>
             </nav>
         </div>    
