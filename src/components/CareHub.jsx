@@ -1,51 +1,36 @@
+import support1 from '../assets/CareHub/emotional-support-1.svg';
+import support2 from '../assets/CareHub/emotional-support-2.svg';
+import support3 from '../assets/CareHub/emotional-support-3.svg';
 export default function CareHub() {
     return (
-        <div className="care-hub-section">
+        <div className="flex flex-col font-montserrat p-10 lg:p-24 ">
 
-            <div className="care-hub-title-box">
-                <h4 className="care-hub-title">Comprehensive Care Hub</h4>
+            <div className="py-5">
+                <h4 className="md:text-5xl text-3xl font-bold underline underline-offset-8  decoration-green-600">Comprehensive Care Hub</h4>
             </div>
 
-            {/* content */}
-            <div className="care-hub-content-box">
-                {/* column1 */}
-                <div className="care-hub-content-column">
-                    <div className="care-hub-image1" />
-                {/* row1 title and content */}
-                <div className="care-hub-content-column-content">
-                    <div className="care-hub-column-title">Emotional Support</div>
-                    <div className="care-hub-column-content">
+            <div className="flex flex-col md:flex-row space-between gap-10 text-lg pt-5">
+                <div className="flex flex-col w-full md:w-[30%] ">
+                    <img className="w-full" src={support1}></img>
+                    <h5 className='font-bold py-5'>Emotional Support</h5>
+                    <p>
                     We provide a safe and confidential space for individuals to share their experiences, receive empathetic listening, and access emotional support.
-                    </div>
-
+                    </p>
                 </div>    
-                </div>
-                
-
-                {/* column2 */}
-                <div className="care-hub-content-column">
-                    <div className="care-hub-image2" />
-                {/* row2 title and content */}
-                <div className="care-hub-content-column-content">
-                    <div className="care-hub-column-title">Resources and Information</div>
-                    <div className="care-hub-column-content">
-                    We offer comprehensive resources, educational materials, and information about domestic violence, including safety planning, legal rights, counseling options, and community support services.                   
-                    </div>
-                </div>       
-                </div>
-                
-
-                {/* column3 */}
-                <div className="care-hub-content-column">
-                    <div className="care-hub-image3" />
-                {/* row3 title and content */}
-                <div className="care-hub-content-column-content">
-                    <div className="care-hub-column-title">Advocacy and awareness</div>
-                    <div className="care-hub-column-content">
-                    We advocate for domestic violence prevention and raise awareness about the issue through campaigns, events, and educational initiatives to promote a culture of respect, equality, and non-violence.                    </div>
-                </div>              
-                </div>
-                
+                <div className="flex flex-col w-full md:w-[30%] ">
+                    <img className="w-[100%]" src={support2}></img>
+                    <h5 className='font-bold py-5'>Resources and Information</h5>
+                    <p>
+                    We offer comprehensive resources, educational materials, and information about domestic violence, including safety planning, legal rights, counseling options, and community support services. 
+                    </p>
+                </div> 
+                <div className="flex flex-col w-full md:w-[30%] ">
+                    <img className="w-[100%]" src={support3}></img>
+                    <h5 className='font-bold py-5'>Advocacy and awareness</h5>
+                    <p>
+                    We provide a safe and confidential space for individuals to share their experiences, receive empathetic listening, and access emotional support.
+                    </p>
+                </div>                
             </div>
             
         </div>
