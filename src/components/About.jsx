@@ -14,8 +14,8 @@ export default function About() {
 								<img className="" src={img39} />
 							</div>
 						</div>
-						<div className="content w-full flex flex-col pt-10 pl-10 gap-5">
-							<h4  className="text-5xl font-bold underline underline-offset-8  decoration-green-600">
+						<div className="content w-full flex flex-col pt-10  gap-5">
+							<h4  className="md:text-5xl text-3xl font-bold underline underline-offset-8  decoration-green-600">
 							Who We Are
 							</h4>
 							<p className="mt-5 text-lg">
@@ -37,7 +37,7 @@ export default function About() {
 			</div>
 
 			{/* what is NeverEverAlone doing/ what we do */}
-			<div className="font-montserrat p-10 flex flex-col md:flex-row gap-10 text-lg">
+			<div className="font-montserrat p-10 lg:p-24 flex flex-col md:flex-row gap-10 text-lg">
 				<div className="flex flex-col gap-5 ">
 					<h4 className="md:text-5xl text-3xl font-bold underline underline-offset-8 decoration-green-600 w-full ">What we do?</h4>
 					<p className="mt-5">

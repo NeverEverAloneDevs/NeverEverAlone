@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo_name from '../assets/logo_name.svg'
 import { Fragment } from 'react'
@@ -16,7 +16,10 @@ export default function Navbar(){
     function onToggleMenu(){
         setMenuOpen(prev=> !prev);
     }
-    
+    useEffect(()=>{
+        console.log(isMenuOpen),
+        isMenuOpen
+    })
     return (
         // navbar: render all paths in the Router.jsx
 
@@ -26,7 +29,7 @@ export default function Navbar(){
                     <img  src={logo_name} alt='logo and name of NeverEverAlone'/>
                 </div>
                 
-                <div className={`flex md:flex-row flex-col absolute items-start gap-3  md:relative bg-white w-full top-[7%] pl-2 font-montserrat mr-5 py-4 transition-all duration-500 ease-on ${isMenuOpen ? 'top-[7%]' : 'top-[-400%]'} md:items-start md:justify-end`}>
+                <div className={`flex md:flex-row flex-col absolute items-start gap-3 md:relative bg-white w-full top-[7%] pl-2 font-montserrat mr-5 py-4 transition-all duration-500 ease-on ${isMenuOpen?'top-[8%]' : 'top-[-100%]'} md:items-start md:justify-end`}>
                     <Menu as="div" className="relative inline-block text-left ">
                         <div>
                             <Menu.Button className="inline-flex  w-full justify-center gap-x-1.5  px-3 py-2 text-md  text-green-700 text-bold font-bold  ">
