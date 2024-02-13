@@ -16,10 +16,7 @@ export default function Navbar(){
     function onToggleMenu(){
         setMenuOpen(prev=> !prev);
     }
-    useEffect(()=>{
-        console.log(isMenuOpen),
-        isMenuOpen
-    })
+  
     return (
         // navbar: render all paths in the Router.jsx
 

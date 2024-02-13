@@ -5,34 +5,14 @@ import DomesticViolence from "../components/DomesticViolence";
 import Footer from "../components/Footer";
 import NavBarContent from "../components/NavBarContent";
 import CareHub from "../components/CareHub";
+import { Outlet } from "react-router-dom";
 
 export default function Home() {
     return(
         <>  
-        {/* navbar + the background picture: ./assets/getHelp.svg */}
-        <div className="home-nav-box"> 
+        <div > 
             <Navbar />      
-            <NavBarContent />
-        </div>
-
-        <div>
-            <About />
-        </div>
-      
-        <div>
-            <DomesticViolence />
-        </div>
-
-        <div>
-            <CareHub />
-        </div>
-      
-        <div>
-            <Contact />
-        </div>
-      
-        <div>
-            <Footer />
+            <Outlet/>
         </div>
         </>
     )
