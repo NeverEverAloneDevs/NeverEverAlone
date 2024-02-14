@@ -5,6 +5,7 @@ import Contact from "./components/Contact";
 import DonateNow from "./components/DonateNow";
 import Home from "./pages/Home";
 import NavBarContent from "./components/NavBarContent";
+import TypesOfDV from "./components/TypesOfDV";
 
 const router = createBrowserRouter ([
        
@@ -32,6 +33,10 @@ const router = createBrowserRouter ([
                         path: "donate-now",
                         element: <DonateNow/>
                     },
+                    {
+                        path:"types",
+                        element:<TypesOfDV/>
+                    }
                 ]
             },
             
