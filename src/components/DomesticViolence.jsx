@@ -1,4 +1,5 @@
 import dv from '../assets/DomesticViolence.svg';
+import { Outlet } from 'react-router-dom';
 export default function DomesticViolence() {
     return (
         <div className="font-montserrat flex md:flex-row flex-col bg-green-100 gap-10 text-lg md:items-center lg:justify-center">
@@ -19,7 +20,7 @@ export default function DomesticViolence() {
             <div className="md:w-full md:right-0 flex justify-center">
             <img className="" src={dv} alt='img40'></img>
             </div>
-            
+            <Outlet/>
         </div>
     )
 }
