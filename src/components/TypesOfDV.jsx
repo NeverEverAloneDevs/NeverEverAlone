@@ -6,7 +6,7 @@ function TypesOfDV() {
       <div>
         <img className='w-full'src={Bgfortypeofdv}/>
       </div>
-      <div className='flex flex-col font-montserrat gap-10 p-10 bg-green-100 text-lg'>
+      <div className='flex flex-col font-montserrat gap-10 p-10 bg-green-100 text-lg lg:px-24'>
         <div className='flex flex-col gap-5'>
           <h4 className="md:text-5xl text-3xl font-bold underline underline-offset-8  decoration-green-600" >Types of Domestic Violence</h4>
           <p>Domestic violence encompasses various forms of abusive behaviors that occur within intimate relationships or households. It’s important to note that domestic violence can affect anyone, regardless of age, gender, race, or socioeconomic status. The types of domestic violence include:</p>
