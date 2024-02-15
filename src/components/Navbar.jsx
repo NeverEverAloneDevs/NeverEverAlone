@@ -21,12 +21,12 @@ export default function Navbar(){
         // navbar: render all paths in the Router.jsx
 
         <div > 
-            <nav className='flex space-between bg-white items-center py-6 md:w-auto' >
-                <div className='md:ml-10 ml-4 flex min-w-fit mx-auto top-0'>
+            <nav className='flex space-between bg-white items-center  md:w-auto md:py-2 py-6' >
+                <div className='md:ml-10 ml-4 lg:ml-24 flex min-w-fit mx-auto top-0'>
                     <img  src={logo_name} alt='logo and name of NeverEverAlone'/>
                 </div>
                 
-                <div className={`flex md:flex-row flex-col absolute items-start gap-3 md:relative bg-white w-full pl-2 font-montserrat mr-5 py-4 transition-all duration-500 ease-on ${isMenuOpen?'top-[8%]' : 'top-[-100%]'} md:items-start md:justify-end`}>
+                <div className={`flex md:flex-row flex-col absolute items-start gap-3 md:gap-0 md:relative md: bg-white w-full pl-2 font-montserrat mr-5 py-4 transition-all duration-500 ease-on ${isMenuOpen?'top-[8%]' : 'top-[-100%]'} md:items-start md:justify-end`}>
                     <Menu as="div" className="relative inline-block text-left ">
                         <div>
                             <Menu.Button className="inline-flex  w-full justify-center gap-x-1.5  px-3 py-2 text-md  text-green-700 text-bold font-bold  ">
@@ -48,67 +48,67 @@ export default function Navbar(){
                             <div className="py-1">
                                 <Menu.Item>
                                 {({ active }) => (
-                                    <a
-                                    href="#"
+                                    <Link
+                                    to="about"
                                     className={classNames(
                                         active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                         'block px-4 py-2 text-md'
                                     )}
                                     >
                                     Who We are
-                                    </a>
+                                    </Link>
                                 )}
                                 </Menu.Item>
                                 <Menu.Item>
                                 {({ active }) => (
-                                    <a
-                                    href="#"
+                                    <Link
+                                    to="whatwedo"
                                     className={classNames(
                                         active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                         'block px-4 py-2 text-md'
                                     )}
                                     >
-                                    What we are
-                                    </a>
+                                    What we do
+                                    </Link>
                                 )}
                                 </Menu.Item>
                                 <Menu.Item>
                                 {({ active }) => (
-                                    <a
-                                    href="#"
+                                    <Link
+                                    to="domestic-violence"
                                     className={classNames(
                                         active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                         'block px-4 py-2 text-md'
                                     )}
                                     >
                                     Understanding DV
-                                    </a>
+                                    </Link>
                                 )}
                                 </Menu.Item>
                                 <Menu.Item>
                                 {({ active }) => (
-                                    <a
-                                    href="#"
+                                    <Link
+                                    to="carehub"
                                     className={classNames(
                                         active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                         'block px-4 py-2 text-md'
                                     )}
                                     >
-                                    Comprehensive care club
-                                    </a>
+                                    Comprehensive care hub
+                                    </Link>
                                 )}
                                 </Menu.Item>
                                 <Menu.Item>
                                 {({ active }) => (
-                                    <a
-                                    href="#"
+                                    <Link
+                                    to="#"
                                     className={classNames(
                                         active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                         'block px-4 py-2 text-md'
                                     )}
                                     >
                                     Introduce app with Appstore/playstore
-                                    </a>
+                                    </Link>
                                 )}
                                 </Menu.Item>
                             
@@ -151,15 +151,15 @@ export default function Navbar(){
                                 </Menu.Item>
                                 <Menu.Item>
                                 {({ active }) => (
-                                    <a
-                                    href="#"
+                                    <Link
+                                    to='causes'
                                     className={classNames(
                                         active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                         'block px-4 py-2 text-md'
                                     )}
                                     >
                                     Causes
-                                    </a>
+                                    </Link>
                                 )}
                                 </Menu.Item>
                                 <Menu.Item>

@@ -1,7 +1,6 @@
 {
   "name": "nevereveralone",
-  "homepage":"https://yyenph.github.io/NeverEverAlone/",
-  
+  "homepage": "https://yyenph.github.io/NeverEverAlone/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
