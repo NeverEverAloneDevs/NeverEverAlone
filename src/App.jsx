@@ -1,12 +1,18 @@
-import Home from "./pages/Home.jsx"
-
-function App() {
+// import Navbar from "../components/Navbar";
+// import Footer from "../components/DonateNow";
+// import { Outlet } from "react-router-dom";
+// function App() {
   
-  return (
-    <>
-      <Home />
-    </>
-  )
-}
+//   return (
+//     <>
+//       <div > 
+//             <Navbar />      
+//             <Outlet/>
+//             <Footer/>
+      
+//         </div>
+//     </>
+//   )
+// }
 
-export default App
+// export default App

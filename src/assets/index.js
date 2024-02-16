@@ -8,5 +8,7 @@ import es7 from './TypesofDV/emotional-support 7.svg';
 import es6 from './TypesofDV/emotional-support 6.svg';
 import es8 from './TypesofDV/emotional-support 8.svg';
 import es9 from './TypesofDV/emotional-support 9.svg';
+import linkedinin from './linkedin-logo.png';
+import footerlogo from './footer.svg';
 
-export {Bgfortypeofdv,es1, es2, es3, es4, es5, es6, es7, es8, es9};
+export {Bgfortypeofdv,es1, es2, es3, es4, es5, es6, es7, es8, es9,linkedinin,footerlogo};
