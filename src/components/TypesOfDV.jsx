@@ -1,6 +1,7 @@
 import {Bgfortypeofdv,es1, es2, es3, es4, es5,es6, es7, es8, es9} from '../assets/';
 
 function TypesOfDV() {
+
   return (
     <>
       <div>
