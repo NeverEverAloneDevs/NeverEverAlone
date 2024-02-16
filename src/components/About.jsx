@@ -1,5 +1,6 @@
 import img40 from '../assets/About_WhoWeAre/image40.svg';
-import img39 from '../assets/About_WhoWeAre/image39.svg'
+import img39 from '../assets/About_WhoWeAre/image39.svg';
+import { Link } from 'react-router-dom';
 export default function About() {
     return (
        <div>
@@ -24,7 +25,7 @@ export default function About() {
 							We are a diverse team of volunteers, advocates, professionals, and survivors who share a common goal of creating a world free from domestic violence. Through our collective expertise, empathy, and commitment, we strive to make a positive impact on the lives of those affected by domestic violence, offering them the support, resources, and empowerment they need to rebuild their lives and thrive.
 							</p>
 							<div className='mt-5 flex items-center'>
-								<a className="who-we-are-button" href="www.google.com">Learn More </a>	
+								<Link to='' className="who-we-are-button" href="www.google.com">Learn More </Link>	
 								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
 								<path d="M7.5 15L12.5 10L7.5 5" stroke="#147952" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
 							</div>
@@ -34,10 +35,7 @@ export default function About() {
 				
 					
 			</div>
-
-			{/* what is NeverEverAlone doing/ what we do */}
-			
-                
+     
         </div>
         )
 }
