@@ -24,8 +24,10 @@ export default function Footer() {
                     
                 </div>
             </div>
-            <div className="flex justify-center py-10 border-t-4 border-gray-400 mx-10 lg:mx-24">
-                <img className='w-[50%] lg:max-w-80' src={footerlogo}></img>
+            <div className="flex flex-col font-montserrat items-center py-10 border-t-4 border-gray-400 mx-10 lg:mx-24 gap-2">
+                <img className='w-[50%] lg:w-[15%]' src={footerlogo}></img>
+                <h5 className="text-[#147952] text-sm">Non Profit domestic Violence Support</h5>
+                <h5 className="text-xs">©nevereveralone 2024 All rights reserved</h5>
             </div>
         </div>
         

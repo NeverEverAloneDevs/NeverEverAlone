@@ -1,3 +1,4 @@
+// imgs for types of domestic violence
 import Bgfortypeofdv from './TypesofDV/Heroimage.svg';
 import es1 from './TypesofDV/emotional-support 1.svg';
 import es2 from './TypesofDV/emotional-support 2.svg';
@@ -8,7 +9,27 @@ import es7 from './TypesofDV/emotional-support 7.svg';
 import es6 from './TypesofDV/emotional-support 6.svg';
 import es8 from './TypesofDV/emotional-support 8.svg';
 import es9 from './TypesofDV/emotional-support 9.svg';
+// imgs for footer
 import linkedinin from './linkedin-logo.png';
 import footerlogo from './footer.svg';
+// imgs for solutions of domestic violence
+import s1 from './SolutionsOfDV/solution 1.svg';
+import s2 from './SolutionsOfDV/solution 2.svg';
+import s3 from './SolutionsOfDV/solution 3.svg';
+import s4 from './SolutionsOfDV/solution 4.svg';
+import s5 from './SolutionsOfDV/solution 5.svg';
+import s6 from './SolutionsOfDV/solution 6.svg';
+import s7 from './SolutionsOfDV/solution 7.svg';
+import s8 from './SolutionsOfDV/solution 8.svg';
+import s9 from './SolutionsOfDV/solution 9.svg';
+import s10 from './SolutionsOfDV/solution 10.svg';
+import s11 from './SolutionsOfDV/solution 11.svg';
+import s12 from './SolutionsOfDV/solution 12.svg';
 
-export {Bgfortypeofdv,es1, es2, es3, es4, es5, es6, es7, es8, es9,linkedinin,footerlogo};
+
+
+
+
+
+
+export {Bgfortypeofdv,es1, es2, es3, es4, es5, es6, es7, es8, es9,linkedinin,footerlogo,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12};
