@@ -20,7 +20,7 @@ export default function Footer() {
                     <h4 className="font-bold">Want to support us?</h4>
                     <p>Your generosity will directly impact the lives of millions of domestic violence victims and survivors, facilitating their journey towards rebuilding their lives, including their families, and most importantly, their children.</p>
                     
-                    <button onClick={()=>(window.location.href = "https://gofund.me/00d45e21")} className= 'bg-green-600 rounded-full  px-5 py-2 text-center max-w-40 font-medium'>Donate Here</button>
+                    <button onClick={()=>(window.location.href = "https://www.paypal.com/donate/?hosted_button_id=DP4VWZ99YL2S2")} className= 'bg-green-600 rounded-full  px-5 py-2 text-center max-w-40 font-medium'>Donate Here</button>
                     
                 </div>
             </div>

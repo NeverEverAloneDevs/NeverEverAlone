@@ -6,5 +6,6 @@ import DomesticViolence from './DomesticViolence';
 import TypesOfDV from './TypesOfDV';
 import WhatWeDo from './WhatWeDo';
 import NavBarContent from './NavBarContent';
+import SolutionsOfDV from './SolutionsOfDV';
 
-export {About, CareHub, CausesOfDV, Contact,DomesticViolence,TypesOfDV, WhatWeDo, NavBarContent}
+export {About, CareHub, CausesOfDV, Contact,DomesticViolence,TypesOfDV, WhatWeDo, NavBarContent, SolutionsOfDV}
