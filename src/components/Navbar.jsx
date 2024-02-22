@@ -98,7 +98,7 @@ export default function Navbar(){
                                     </Link>
                                 )}
                                 </Menu.Item>
-                                <Menu.Item>
+                                {/* <Menu.Item>
                                 {({ active }) => (
                                     <Link
                                     to="#"
@@ -107,10 +107,10 @@ export default function Navbar(){
                                         'block px-4 py-2 text-md'
                                     )}
                                     >
-                                    Introduce app with Appstore/playstore
+                                    Our App
                                     </Link>
                                 )}
-                                </Menu.Item>
+                                </Menu.Item> */}
                             
                             </div>
                             </Menu.Items>
@@ -164,15 +164,15 @@ export default function Navbar(){
                                 </Menu.Item>
                                 <Menu.Item>
                                 {({ active }) => (
-                                    <a
-                                    href="#"
+                                    <Link
+                                    to="solutions"
                                     className={classNames(
                                         active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                         'block px-4 py-2 text-md'
                                     )}
                                     >
                                     Solution
-                                    </a>
+                                    </Link>
                                 )}
                                 </Menu.Item>
                                 
@@ -199,7 +199,7 @@ export default function Navbar(){
                             leaveFrom="transform opacity-100 scale-100"
                             leaveTo="transform opacity-0 scale-95"
                         >
-                            <Menu.Items className="absolute left-0 z-10 mt-2 w-full origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                            <Menu.Items className="absolute left-0 z-10 mt-2 w-40 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                             <div className="py-1">
                                 <Menu.Item>
                                 {({ active }) => (
@@ -213,7 +213,7 @@ export default function Navbar(){
                                     Founder
                                     </a>
                                 )}
-                                </Menu.Item>
+                                </Menu.Item>              
                                 <Menu.Item>
                                 {({ active }) => (
                                     <a
@@ -223,20 +223,7 @@ export default function Navbar(){
                                         'block px-4 py-2 text-md'
                                     )}
                                     >
-                                    Vision
-                                    </a>
-                                )}
-                                </Menu.Item>
-                                <Menu.Item>
-                                {({ active }) => (
-                                    <a
-                                    href="#"
-                                    className={classNames(
-                                        active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                        'block px-4 py-2 text-md'
-                                    )}
-                                    >
-                                    Mision
+                                    Mision & Vision
                                     </a>
                                 )}
                                 </Menu.Item>
@@ -258,7 +245,7 @@ export default function Navbar(){
                         </Transition>
                     </Menu>
                     <Link className='justify-center gap-x-1.5  px-3 py-2 text-md text-gray-900 'to="contact">Contact</Link>
-                    <a className='flex bg-green-600 rounded-full ml-3 px-5 py-2 text-md max-w-xs text-center'>Download App</a>
+                    {/* <a className='flex bg-green-600 rounded-full ml-3 px-5 py-2 text-md max-w-xs text-center'>Download App</a> */}
                 </div>
                 <div className='mr-4 flex items-center text-2xl md:hidden cursor-pointer'>
                         <FontAwesomeIcon icon={isMenuOpen ? faX :faBars} onClick={onToggleMenu}/>

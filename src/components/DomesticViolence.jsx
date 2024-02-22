@@ -2,9 +2,9 @@ import dv from '../assets/DomesticViolence.svg';
 import { Outlet, Link } from 'react-router-dom';
 export default function DomesticViolence() {
     return (
-        <div className="font-montserrat flex md:flex-row flex-col bg-green-100 gap-10 text-lg md:items-center lg:justify-centerz">
+        <div className="font-montserrat flex md:flex-row flex-col bg-[#E5FBEC] gap-5 text-lg md:items-center lg:justify-centerz">
             <div className="w-full p-10 lg:p-24">
-                <h4 className="md:text-5xl text-3xl font-bold underline underline-offset-8  decoration-green-600">Understanding Domestic Violence</h4>
+                <h4 className="md:text-4xl text-3xl font-bold underline underline-offset-8  decoration-green-600">Understanding Domestic Violence</h4>
                 <p className="mt-8">
                 Domestic violence is a pattern of behaviour in which one person in a relationship tries to control and dominate the other person through physical, emotional, or sexual abuse. It can occur in any type of relationship, including those between intimate partners, family members, and roommates.
                 <br />
@@ -17,7 +17,7 @@ export default function DomesticViolence() {
                     <path d="M7.5 15L12.5 10L7.5 5" stroke="#147952" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
 				</div>
             </div>
-            <div className="md:w-full md:right-0 flex justify-center">
+            <div className="md:w-full md:right-0 px-10 md:p-0 flex justify-center">
             <img className="" src={dv} alt='img40'></img>
             </div>
             <Outlet/>

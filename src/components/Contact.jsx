@@ -1,7 +1,7 @@
 
 export default function Contact() {
     const accessKey = import.meta.env.VITE_REACT_APP_WEB3FORMS_KEY
-    console.log(accessKey)
+
     return (
         <div className='flex flex-col font-montserrat gap-10 p-10  text-lg lg:px-24 bg-green-50'>
             <h4 className="md:text-5xl text-3xl font-bold underline underline-offset-8  decoration-green-600" >Contact us </h4>
