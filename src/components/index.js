@@ -7,5 +7,6 @@ import TypesOfDV from './TypesOfDV';
 import WhatWeDo from './WhatWeDo';
 import NavBarContent from './NavBarContent';
 import SolutionsOfDV from './SolutionsOfDV';
+import DownloadApp from './DownloadApp';
 
-export {About, CareHub, CausesOfDV, Contact,DomesticViolence,TypesOfDV, WhatWeDo, NavBarContent, SolutionsOfDV}
+export {About, CareHub, CausesOfDV, Contact,DomesticViolence,TypesOfDV, WhatWeDo, NavBarContent, SolutionsOfDV, DownloadApp}

@@ -245,7 +245,7 @@ export default function Navbar(){
                         </Transition>
                     </Menu>
                     <Link className='justify-center gap-x-1.5  px-3 py-2 text-md text-gray-900 'to="contact">Contact</Link>
-                    {/* <a className='flex bg-green-600 rounded-full ml-3 px-5 py-2 text-md max-w-xs text-center'>Download App</a> */}
+                    <Link className='flex bg-green-600 rounded-full ml-3 px-5 py-2 text-md max-w-xs text-center' to='download'>Download App</Link>
                 </div>
                 <div className='mr-4 flex items-center text-2xl md:hidden cursor-pointer'>
                         <FontAwesomeIcon icon={isMenuOpen ? faX :faBars} onClick={onToggleMenu}/>
