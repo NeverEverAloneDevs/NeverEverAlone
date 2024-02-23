@@ -17,7 +17,7 @@ const router = createBrowserRouter ([
                         element: <DomesticViolence />
                     },
                     {
-                        path: "about",
+                        path: "whoweare",
                         element: <About />
                     },
                     {

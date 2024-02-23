@@ -4,7 +4,7 @@ export default function Contact() {
 
     return (
         <div className='flex flex-col font-montserrat gap-10 p-10  text-lg lg:px-24 bg-green-50'>
-            <h4 className="md:text-5xl text-3xl font-bold underline underline-offset-8  decoration-green-600" >Contact us </h4>
+            <h4 className="md:text-4xl text-3xl font-bold underline underline-offset-8  decoration-green-600" >Contact us </h4>
             <form action="https://api.web3forms.com/submit" method="POST"
             className="grid grid-cols-1 lg: grid-rows-2 lg:grid-cols-2 gap-10 lg:gap-y-5 lg:gap-x-10 lg:gap-1-0">
                 <input type="hidden" name="access_key" value={accessKey}></input>

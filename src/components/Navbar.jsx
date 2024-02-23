@@ -23,7 +23,10 @@ export default function Navbar(){
         <div > 
             <nav className='flex space-between bg-white items-center  md:w-auto md:py-2 py-6' >
                 <div className='md:ml-10 ml-4 lg:ml-24 flex min-w-fit mx-auto top-0'>
-                    <img  src={logo_name} alt='logo and name of NeverEverAlone'/>
+                    <Link to='/'>
+                        <img  src={logo_name} alt='logo and name of NeverEverAlone'/>
+                    </Link>
+                    
                 </div>
                 
                 <div className={`flex md:flex-row flex-col absolute items-start gap-3 lg:gap-5 md:relative bg-white w-full pl-2 font-montserrat mr-5 py-4 transition-all duration-500 ease-on ${isMenuOpen?'top-[8%] pl-8' : 'top-[-100%]'} md:items-start md:justify-end`}>
@@ -49,7 +52,7 @@ export default function Navbar(){
                                 <Menu.Item>
                                 {({ active }) => (
                                     <Link
-                                    to="about"
+                                    to="whoweare"
                                     className={classNames(
                                         active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                         'block px-4 py-2 text-md'
@@ -74,8 +77,7 @@ export default function Navbar(){
                                 </Menu.Item>
                                 <Menu.Item>
                                 {({ active }) => (
-                                    <Link
-                                    to="domestic-violence"
+                                    <Link to='domestic-violence'
                                     className={classNames(
                                         active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                         'block px-4 py-2 text-md'
@@ -120,7 +122,7 @@ export default function Navbar(){
                     <Menu as="div" className="relative inline-block text-left ">
                         <div>
                             <Menu.Button className="inline-flex w-full justify-center gap-x-1.5  px-3 py-2 text-md  text-gray-900  ">
-                            <Link to="/domestic-violence">Domestic Violence</Link>
+                            <p >Domestic Violence</p>
                             <ChevronDownIcon className="-mr-1 h-5 w-5 text-gray-400" aria-hidden="true" />
                             </Menu.Button>
                         </div>
@@ -185,7 +187,7 @@ export default function Navbar(){
                     <Menu as="div" className="relative inline-block text-left ">
                         <div>
                             <Menu.Button className="inline-flex w-full justify-center gap-x-1.5  px-3 py-2 text-md  text-gray-900  ">
-                            <Link to="/about">About</Link>
+                            <p >About</p>
                             <ChevronDownIcon className="-mr-1 h-5 w-5 text-gray-400" aria-hidden="true" />
                             </Menu.Button>
                         </div>

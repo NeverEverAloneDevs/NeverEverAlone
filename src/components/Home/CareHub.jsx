@@ -1,6 +1,5 @@
-import support1 from '../assets/CareHub/emotional-support-1.svg';
-import support2 from '../assets/CareHub/emotional-support-2.svg';
-import support3 from '../assets/CareHub/emotional-support-3.svg';
+import {support1,support2,support3} from '../../assets';
+
 export default function CareHub() {
     return (
         <div className="flex flex-col font-montserrat px-10 lg:px-24 ">

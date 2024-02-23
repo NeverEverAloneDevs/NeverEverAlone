@@ -1,12 +1,12 @@
-import About from './About';
-import CareHub from './CareHub';
-import CausesOfDV from './CausesOfDV';
+import About from './Home/WhoWeAre';
+import CareHub from './Home/CareHub';
+import CausesOfDV from './DomesticViolence/CausesOfDV';
 import Contact from './Contact';
-import DomesticViolence from './DomesticViolence';
-import TypesOfDV from './TypesOfDV';
-import WhatWeDo from './WhatWeDo';
+import DomesticViolence from './Home/DomesticViolence';
+import TypesOfDV from './DomesticViolence/TypesOfDV';
+import WhatWeDo from './Home/WhatWeDo';
 import NavBarContent from './NavBarContent';
-import SolutionsOfDV from './SolutionsOfDV';
+import SolutionsOfDV from './DomesticViolence/SolutionsOfDV';
 import DownloadApp from './DownloadApp';
 
 export {About, CareHub, CausesOfDV, Contact,DomesticViolence,TypesOfDV, WhatWeDo, NavBarContent, SolutionsOfDV, DownloadApp}

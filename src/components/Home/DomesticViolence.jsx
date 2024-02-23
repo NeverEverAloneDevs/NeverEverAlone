@@ -1,4 +1,4 @@
-import dv from '../assets/DomesticViolence.svg';
+import dv from '../../assets/DomesticViolence.svg';
 import { Outlet, Link } from 'react-router-dom';
 export default function DomesticViolence() {
     return (
