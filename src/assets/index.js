@@ -34,9 +34,16 @@ import s11 from './SolutionsOfDV/solution 11.svg';
 import s12 from './SolutionsOfDV/solution 12.svg';
 
 
-
-
-
-
-
 export {whoweare1,whoweare2,Bgfortypeofdv,support1,support2,support3,es1, es2, es3, es4, es5, es6, es7, es8, es9,linkedinin,footerlogo,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12};
+
+//export for teams
+import chandler from './Team/chandler.png';
+import casey from './Team/casey.png';
+import Kassandra from './Team/Kassandra.png';
+import none from './Team/none.png';
+import Panneer from './Team/Panneer.png';
+import Savitha from './Team/Savitha.png';
+import Swarali from './Team/Swarali.png';
+import Tasnia from './Team/Tasnia.png';
+import yen from './Team/yen.png';
+export {chandler,casey,Kassandra, none, Panneer,Savitha, Swarali, Tasnia, yen}

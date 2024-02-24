@@ -1,7 +1,7 @@
 import { createBrowserRouter} from "react-router-dom";
 import Home from "./pages/Home";
-import {About,CareHub,CausesOfDV,Contact,DomesticViolence,TypesOfDV,WhatWeDo,NavBarContent, SolutionsOfDV,DownloadApp} from "./components/";
-import DonateNow from "./components/DonateNow";
+import {WhoWeAre,CareHub,CausesOfDV,Contact,DomesticViolence,TypesOfDV, WhatWeDo, NavBarContent, SolutionsOfDV,DownloadApp,Founder, Teams, MissionVision,DonateNow} from "./components/";
+
 const router = createBrowserRouter ([
        
             {
@@ -18,7 +18,7 @@ const router = createBrowserRouter ([
                     },
                     {
                         path: "whoweare",
-                        element: <About />
+                        element: <WhoWeAre />
                     },
                     {
                         path: "whatwedo",
@@ -47,6 +47,18 @@ const router = createBrowserRouter ([
                     {
                         path:"solutions",
                         element:<SolutionsOfDV/>
+                    },
+                    {
+                        path:"founder",
+                        element:<Founder/>
+                    },
+                    {
+                        path:"mission-vision",
+                        element:<MissionVision/>
+                    },
+                    {
+                        path:"Teams",
+                        element:<Teams/>
                     },
                     {
                         path:"download",

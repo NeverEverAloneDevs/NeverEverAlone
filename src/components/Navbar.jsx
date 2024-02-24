@@ -24,7 +24,7 @@ export default function Navbar(){
             <nav className='flex space-between bg-white items-center  md:w-auto md:py-2 py-6' >
                 <div className='md:ml-10 ml-4 lg:ml-24 flex min-w-fit mx-auto top-0'>
                     <Link to='/'>
-                        <img  src={logo_name} alt='logo and name of NeverEverAlone'/>
+                    <img  src={logo_name} alt='logo and name of NeverEverAlone'/>
                     </Link>
                     
                 </div>
@@ -205,41 +205,41 @@ export default function Navbar(){
                             <div className="py-1">
                                 <Menu.Item>
                                 {({ active }) => (
-                                    <a
-                                    href="#"
+                                    <Link
+                                    to="founder"
                                     className={classNames(
                                         active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                         'block px-4 py-2 text-md'
                                     )}
                                     >
                                     Founder
-                                    </a>
+                                    </Link>
                                 )}
                                 </Menu.Item>              
                                 <Menu.Item>
                                 {({ active }) => (
-                                    <a
-                                    href="#"
+                                    <Link
+                                    to="mission-vision"
                                     className={classNames(
                                         active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                         'block px-4 py-2 text-md'
                                     )}
                                     >
                                     Mision & Vision
-                                    </a>
+                                    </Link>
                                 )}
                                 </Menu.Item>
                                 <Menu.Item>
                                 {({ active }) => (
-                                    <a
-                                    href="#"
+                                    <Link
+                                    to="teams"
                                     className={classNames(
                                         active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                         'block px-4 py-2 text-md'
                                     )}
                                     >
                                     Teams
-                                    </a>
+                                    </Link>
                                 )}
                                 </Menu.Item>
                             </div>
