@@ -1,3 +1,10 @@
+//imgs for About
+import whoweare1 from './About_WhoWeAre/image40.svg';
+import whoweare2 from './About_WhoWeAre/image39.svg';
+//imgs for CareHub
+import support1 from './CareHub/emotional-support-1.svg';
+import support2 from './CareHub/emotional-support-2.svg';
+import support3 from './CareHub/emotional-support-3.svg';
 // imgs for types of domestic violence
 import Bgfortypeofdv from './TypesofDV/Heroimage.svg';
 import es1 from './TypesofDV/emotional-support 1.svg';
@@ -27,9 +34,16 @@ import s11 from './SolutionsOfDV/solution 11.svg';
 import s12 from './SolutionsOfDV/solution 12.svg';
 
 
+export {whoweare1,whoweare2,Bgfortypeofdv,support1,support2,support3,es1, es2, es3, es4, es5, es6, es7, es8, es9,linkedinin,footerlogo,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12};
 
-
-
-
-
-export {Bgfortypeofdv,es1, es2, es3, es4, es5, es6, es7, es8, es9,linkedinin,footerlogo,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12};
+//export for teams
+import chandler from './Team/chandler.png';
+import casey from './Team/casey.png';
+import Kassandra from './Team/Kassandra.png';
+import none from './Team/none.png';
+import Panneer from './Team/Panneer.png';
+import Savitha from './Team/Savitha.png';
+import Swarali from './Team/Swarali.png';
+import Tasnia from './Team/Tasnia.png';
+import yen from './Team/yen.png';
+export {chandler,casey,Kassandra, none, Panneer,Savitha, Swarali, Tasnia, yen}

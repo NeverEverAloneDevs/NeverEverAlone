@@ -1,5 +1,5 @@
-import img40 from '../assets/About_WhoWeAre/image40.svg';
-import img39 from '../assets/About_WhoWeAre/image39.svg';
+import {whoweare1,whoweare2} from '../../assets';
+
 import { Link } from 'react-router-dom';
 export default function About() {
     return (
@@ -8,10 +8,10 @@ export default function About() {
 					<div className="flex flex-col md:flex-row justify-center gap-10">
 						<div className="img w-full flex flex-row pt-10 gap-5 justify-center">
 							<div className="w-auto  mt-20">
-								<img className="" src={img40} alt='img40' />
+								<img className="" src={whoweare1}  />
 							</div>
 							<div className="w-auto ">
-								<img className="" src={img39} />
+								<img className="" src={whoweare2} />
 							</div>
 						</div>
 						<div className="content w-full flex flex-col pt-10  gap-5">
