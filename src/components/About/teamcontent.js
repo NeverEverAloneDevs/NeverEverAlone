@@ -4,17 +4,20 @@ const team = [
   {
     name:'Chandler Crawford',
     title:'Legal, USA',
-    photo:chandler
+    photo:chandler,
+    linkedin: 'https://www.linkedin.com/in/chandler-crawford-6b966318a/'
   },
   {
     name:'Casey Harris',
     title:'Legal, USA',
-    photo:casey
+    photo:casey,
+    linkedin: 'https://www.linkedin.com/in/whiplash1977/'
   },
   {
     name:'Savitha Kochhar',
     title:'Legal, India',
-    photo:Savitha
+    photo:Savitha,
+    linkedin: 'https://www.linkedin.com/in/savitha-kesav-jagadeesan-3489708/'
   },
   {
     name:'Panneer Posangu',
@@ -24,32 +27,38 @@ const team = [
   {
     name:'Kenan Bouvier',
     title:'IT',
-    photo:none
+    photo:none,
+    linkedin:'https://www.linkedin.com/in/kenanbouvier/'
   },
   {
     name:'Swarali Dalal',
     title:'UX/UI Designer',
-    photo:Swarali
+    photo:Swarali,
+    linkedin: 'https://www.linkedin.com/in/swarali-dalal/'
   },
   {
     name:'Tasnia Hannan',
     title:'UX/UI Designer',
-    photo:Tasnia
+    photo:Tasnia,
+    linkedin:'https://www.linkedin.com/in/tasnia-hannan/'
   },
   {
     name:'Kassandra Moriarty',
     title:'Marketing',
-    photo:Kassandra
+    photo:Kassandra,
+    linkedin:'https://www.linkedin.com/in/kassandra-moriarty/'
   },
   {
     name:'Yen Elfering',
     title:'Lead Wed Developer',
-    photo:yen
+    photo:yen,
+    linkedin: 'https://www.linkedin.com/in/yenelfering/'
   },
   {
-    name:'Hui Zhao',
+    name:'Hui Harbison',
     title:'Wed Developer',
-    photo:none
+    photo:none,
+    linkedin: 'https://www.linkedin.com/in/huiharbison/'
   },
 ]
 

@@ -7,7 +7,8 @@ export default function Footer() {
                 <div className="flex flex-col gap-4  lg:flex-start lg:w-[35%] w-full">
                     <h4 className="font-bold">For enquiries</h4>
                     <p>Our non-profit organization is active socially. Follow us on social network.</p>
-                    <img className="w-8" src={linkedinin}></img>
+                    <a href="https://www.linkedin.com/company/nevereveralone/mycompany/"><img className="w-8" src={linkedinin}></img></a>
+                    
 
                 </div>
                 <div className="flex flex-col gap-4  lg:flex-start lg:w-[30%] w-full">
