@@ -47,3 +47,9 @@ import Swarali from './Team/Swarali.png';
 import Tasnia from './Team/Tasnia.png';
 import yen from './Team/yen.png';
 export {chandler,casey,Kassandra, none, Panneer,Savitha, Swarali, Tasnia, yen}
+
+//export for founder,mission and vision
+import founder from './About/founder.svg';
+import mission from './About/mission.svg';
+import vision from './About/vision.svg';
+export {founder, mission, vision};
