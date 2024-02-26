@@ -50,13 +50,13 @@ const team = [
   },
   {
     name:'Yen Elfering',
-    title:'Lead Wed Developer',
+    title:'Web Developer',
     photo:yen,
     linkedin: 'https://www.linkedin.com/in/yenelfering/'
   },
   {
     name:'Hui Harbison',
-    title:'Wed Developer',
+    title:'Web Developer',
     photo:none,
     linkedin: 'https://www.linkedin.com/in/huiharbison/'
   },
