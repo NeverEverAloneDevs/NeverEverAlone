@@ -25,12 +25,6 @@ const team = [
     photo:Panneer
   },
   {
-    name:'Kenan Bouvier',
-    title:'IT',
-    photo:none,
-    linkedin:'https://www.linkedin.com/in/kenanbouvier/'
-  },
-  {
     name:'Swarali Dalal',
     title:'UX/UI Designer',
     photo:Swarali,
@@ -41,12 +35,6 @@ const team = [
     title:'UX/UI Designer',
     photo:Tasnia,
     linkedin:'https://www.linkedin.com/in/tasnia-hannan/'
-  },
-  {
-    name:'Kassandra Moriarty',
-    title:'Marketing',
-    photo:Kassandra,
-    linkedin:'https://www.linkedin.com/in/kassandra-moriarty/'
   },
   {
     name:'Yen Elfering',

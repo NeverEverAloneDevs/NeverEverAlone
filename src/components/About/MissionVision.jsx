@@ -6,12 +6,12 @@ export default function MissionVision() {
       <div className="flex flex-col gap-5">
         <img src ={vision} className="w-[30%] lg:h-[50%]"></img>
         <span className='font-semibold'>VISION</span>
-        <p>To Inspire & Lead the transition to Domestic Violence free horld and to deliver solutions to global humanitarian issues and problems</p>
+        <p>To Inspire & Lead the Transition to Domestic Violence Free World and to Deliver Solutions to Global Humanitarian Issues and Problems</p>
       </div>
       <div className="flex flex-col gap-5">
         <img src ={mission} className="w-[30%] lg:h-[50%]"></img>
         <span className='font-semibold'>MISSION</span>
-        <p>To create a robust support ecosystem for individuals who have suffered and suffer domestic violence</p>
+        <p>To Create a Robust Support Ecosystem for Individuals who have Suffered and Suffer Domestic Violence</p>
       </div>
     </div>
   )
