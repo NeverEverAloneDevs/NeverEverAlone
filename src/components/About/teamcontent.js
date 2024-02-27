@@ -25,6 +25,11 @@ const team = [
     photo:Panneer
   },
   {
+    name:'C K Kumar',
+    title:'Mentor',
+    photo:none
+  },
+  {
     name:'Swarali Dalal',
     title:'UX/UI Designer',
     photo:Swarali,

@@ -2,7 +2,7 @@ import {support1,support2,support3} from '../../assets';
 
 export default function CareHub() {
     return (
-        <div className="flex flex-col font-montserrat px-10 lg:px-24 ">
+        <div className="flex flex-col font-montserrat p-10 lg:p-24 ">
 
             <div className="py-5">
                 <h4 className="md:text-5xl text-3xl font-bold underline underline-offset-8  decoration-green-600">Comprehensive Care Hub</h4>

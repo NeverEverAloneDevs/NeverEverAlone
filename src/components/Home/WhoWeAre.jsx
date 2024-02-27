@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function About() {
     return (
        <div>
-			<div className="font-montserrat px-10">
+			<div className="font-montserrat p-10">
 					<div className="flex flex-col md:flex-row justify-center gap-10">
 						<div className="img w-full flex flex-row pt-10 gap-5 justify-center">
 							<div className="w-auto  mt-20">

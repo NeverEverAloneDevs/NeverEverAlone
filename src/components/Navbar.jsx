@@ -30,7 +30,11 @@ export default function Navbar(){
                 </div>
                 
                 <div className={`flex md:flex-row flex-col absolute items-start gap-3 lg:gap-5 md:relative bg-white w-full pl-2 font-montserrat mr-5 py-4 transition-all duration-500 ease-on ${isMenuOpen?'top-[8%] pl-8' : 'top-[-100%]'} md:items-start md:justify-end`}>
-                    <Menu as="div" className="relative inline-block text-left ">
+                    <div className=" justify-center gap-x-1.5  px-3 py-2 text-md  text-green-700 text-bold font-bold  ">
+                            <Link  to="/">Home</Link>
+                    </div>
+
+                    {/* <Menu as="div" className="relative inline-block text-left ">
                         <div>
                             <Menu.Button className="inline-flex  w-full justify-center gap-x-1.5  px-3 py-2 text-md  text-green-700 text-bold font-bold  ">
                             <Link  to="/">Home</Link>
@@ -100,24 +104,11 @@ export default function Navbar(){
                                     </Link>
                                 )}
                                 </Menu.Item>
-                                {/* <Menu.Item>
-                                {({ active }) => (
-                                    <Link
-                                    to="#"
-                                    className={classNames(
-                                        active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                        'block px-4 py-2 text-md'
-                                    )}
-                                    >
-                                    Our App
-                                    </Link>
-                                )}
-                                </Menu.Item> */}
-                            
+  
                             </div>
                             </Menu.Items>
                         </Transition>
-                    </Menu>
+                    </Menu> */}
                     
                     <Menu as="div" className="relative inline-block text-left ">
                         <div>
