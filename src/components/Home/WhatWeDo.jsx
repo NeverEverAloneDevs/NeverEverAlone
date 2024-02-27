@@ -2,7 +2,7 @@
 
 function WhatWeAre() {
   return (
-    <div className="font-montserrat p-10 lg:px-24 flex flex-col md:flex-row gap-10 text-lg">
+    <div className="font-montserrat p-10 py-16 lg:p-24 flex flex-col md:flex-row gap-10 text-lg">
 				<div className="flex flex-col gap-5 w-full lg:w-[50%]">
 					<h4 className="md:text-5xl text-3xl font-bold underline underline-offset-8 decoration-green-600 w-full ">What we do?</h4>
 					<p className="mt-5">

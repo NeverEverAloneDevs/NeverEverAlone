@@ -12,22 +12,22 @@ const router = createBrowserRouter ([
                         path: "/",
                         element: <NavBarContent />
                     },
-                    {
-                        path: "domestic-violence",
-                        element: <DomesticViolence />
-                    },
-                    {
-                        path: "whoweare",
-                        element: <WhoWeAre />
-                    },
-                    {
-                        path: "whatwedo",
-                        element: <WhatWeDo />
-                    },
-                    {
-                        path: "carehub",
-                        element: <CareHub />
-                    },
+                    // {
+                    //     path: "domestic-violence",
+                    //     element: <DomesticViolence />
+                    // },
+                    // {
+                    //     path: "whoweare",
+                    //     element: <WhoWeAre />
+                    // },
+                    // {
+                    //     path: "whatwedo",
+                    //     element: <WhatWeDo />
+                    // },
+                    // {
+                    //     path: "carehub",
+                    //     element: <CareHub />
+                    // },
                     {
                         path: "contact",
                         element: <Contact />

@@ -2,7 +2,7 @@ import dv from '../../assets/DomesticViolence.svg';
 import { Outlet, Link } from 'react-router-dom';
 export default function DomesticViolence() {
     return (
-        <div className="font-montserrat flex md:flex-row flex-col bg-[#E5FBEC] gap-5 text-lg md:items-center lg:justify-centerz">
+        <div className="font-montserrat flex md:flex-row flex-col bg-[#E5FBEC] gap-5 text-lg md:items-center lg:justify-centerz ">
             <div className="w-full p-10 lg:p-24">
                 <h4 className="md:text-4xl text-3xl font-bold underline underline-offset-8  decoration-green-600">Understanding Domestic Violence</h4>
                 <p className="mt-8">
