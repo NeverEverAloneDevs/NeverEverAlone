@@ -39,17 +39,25 @@ export {whoweare1,whoweare2,Bgfortypeofdv,support1,support2,support3,es1, es2, e
 //export for teams
 import chandler from './Team/chandler.png';
 import casey from './Team/casey.png';
-import Kassandra from './Team/Kassandra.png';
 import none from './Team/none.png';
 import Panneer from './Team/Panneer.png';
 import Savitha from './Team/Savitha.png';
 import Swarali from './Team/Swarali.png';
 import Tasnia from './Team/Tasnia.png';
 import yen from './Team/yen.png';
-export {chandler,casey,Kassandra, none, Panneer,Savitha, Swarali, Tasnia, yen}
+import Hui from './Team/Hui.jpeg';
+import Kumar from './Team/Kumar.jpeg';
+export {chandler,casey, none, Panneer,Savitha, Swarali, Tasnia, yen, Hui, Kumar}
 
 //export for founder,mission and vision
 import founder from './About/founder.svg';
 import mission from './About/mission.svg';
 import vision from './About/vision.svg';
 export {founder, mission, vision};
+
+//export for download app page
+import left from './download/left.svg';
+import right from './download/right.svg';
+import appstore from './download/appstore.svg';
+import googleplay from './download/googleplay.svg';
+export {left,right,appstore, googleplay}
