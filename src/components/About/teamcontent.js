@@ -1,4 +1,4 @@
-import { chandler,casey,Kassandra, none, Panneer,Savitha, Swarali, Tasnia, yen } from "../../assets"
+import { chandler,casey, none, Panneer,Savitha, Swarali, Tasnia, yen, Hui, Kumar } from "../../assets"
 
 const team = [
   {
@@ -27,7 +27,8 @@ const team = [
   {
     name:'C K Kumar',
     title:'Mentor',
-    photo:none
+    photo:Kumar,
+    linkedin:'https://www.linkedin.com/in/ckkumar'
   },
   {
     name:'Swarali Dalal',
@@ -50,7 +51,7 @@ const team = [
   {
     name:'Hui Harbison',
     title:'Web Developer',
-    photo:none,
+    photo:Hui,
     linkedin: 'https://www.linkedin.com/in/huiharbison/'
   },
 ]
