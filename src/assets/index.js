@@ -54,3 +54,10 @@ import founder from './About/founder.svg';
 import mission from './About/mission.svg';
 import vision from './About/vision.svg';
 export {founder, mission, vision};
+
+//export for download app page
+import left from './download/left.svg';
+import right from './download/right.svg';
+import appstore from './download/appstore.svg';
+import googleplay from './download/googleplay.svg';
+export {left,right,appstore, googleplay}

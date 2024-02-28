@@ -11,6 +11,11 @@ export default function DomesticViolence() {
                 <br />
                 Victims of domestic violence often experience fear, anxiety, and isolation. They may feel trapped in their situation and be unable to leave due to financial, emotional, or physical barriers. Victims may also feel ashamed or embarrassed about their situation and struggle to seek help. This is why the app we are creating has the option to stay anonymous and get help safely from their home or wherever they are comfortable without being Judged and associating shame with it!
                 </p>
+                <br/>
+                <div className=' '>
+                <p className=''>“It doesn’t matter how rich or poor a person is, what gender or social class, or how much fame or education the person possesses. Verbal, mental, and physical abuse can happen to anyone. It doesn’t matter what a person's ethnicity is because the only distinguishing color of abuse is black-and-blue.”</p>
+                <span className=''>- La Toya Jackson</span>
+                </div>
                 <div className='mt-5 flex items-center'>
                     <Link to='/types' className="who-we-are-button" href="www.google.com">Learn More </Link>	
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
