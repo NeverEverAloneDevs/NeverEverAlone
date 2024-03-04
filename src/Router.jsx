@@ -1,4 +1,4 @@
-import { createBrowserRouter} from "react-router-dom";
+import { createBrowserRouter, Navigate} from "react-router-dom";
 import Home from "./pages/Home";
 import {CausesOfDV,Contact,TypesOfDV, NavBarContent, SolutionsOfDV,DownloadApp,Founder, Teams, MissionVision,DonateNow} from "./components/";
 
@@ -54,7 +54,7 @@ const router = createBrowserRouter ([
                     }
                 ]
             },
-            
-
+            { path: '*', element: <Navigate to="/" /> },
+    
         ]);
 export default router;
